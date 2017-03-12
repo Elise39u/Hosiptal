@@ -2,14 +2,12 @@
 <html>
 <head>
 	<title>{$pagetitle}</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 <h1> Welcome to the patient section </h1>
 <ul>
-	<li><a href="index.php"> home </a></li>
-	<li><a href="client.php"> Clients </a></li>
-	<li><a href="species.php"> Species </a></li>
+	<li><a href="../index.php"> home </a></li>
 	<li><a href="create.php"> Create patient </a></li>
 </ul>
 

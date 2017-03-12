@@ -1,7 +1,7 @@
 <?php
-require_once ('inc/loadsmarty.php');
-require_once ('inc/db.php');
-require_once ('inc/patient_logic.php');
+require_once ('../inc/loadsmarty.php');
+require_once ('../inc/db.php');
+require_once ('../inc/patient_logic.php');
 
 $pagetitle = 'Hosiptal';
 
@@ -15,4 +15,4 @@ if (isset($_POST['submit'])) {
 }
 
 $smarty->assign('pagetitle', $pagetitle);
-$smarty->display('tpl/create.html.tpl');
+$smarty->display('../tpl/create.html.tpl');

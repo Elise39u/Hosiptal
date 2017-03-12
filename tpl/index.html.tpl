@@ -7,7 +7,7 @@
 <body>
 <h1> Welcome choose you`re option</h1>
 <ul>
-	<li><a href="patient.php"> Patiënt </a></li>
+	<li><a href="patient/patient.php"> Patiënt </a></li>
 	<li><a href="client.php"> Clients </a></li>
 	<li><a href="species.php"> Species </li>
 </ul>
