@@ -10,7 +10,6 @@ if (isset($_POST['submit'])) {
 
 	$query = $link->query("INSERT INTO species(sort) VALUES ('$sort')");
 	echo "Succesfull added";
-	var_dump("INSERT INTO species(sort) VALUES ('$sort')");
 }
 
 $smarty->assign('pagetitle', $pagetitle);
