@@ -10,7 +10,15 @@ if (isset($_POST['submit'])) {
 	$name = $_POST['name'];
 	$species = $_POST['species'];
 	$status = $_POST['status'];
-    $update = $link->query("UPDATE patient SET name='$name', species='$species', status='$status' WHERE id=$id");
+	if (isset($_POST['male'])) {
+		$gender = $_POST['male'];
+	} elseif (isset($_POST['female'])) {
+		$gender = $_POST['female'];
+	} else {
+		$gender = $_POST['unkown'];
+	}
+    $update = $link->query("UPDATE patient SET name='$name', species='$species', status='$status', gender='$gender' WHERE id=$id");
+    var_dump("UPDATE patient SET name='$name', species='$species', status='$status', gender='$gender' WHERE id=$id");
 }
 
 $smarty->assign('id', $id);

@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-03-12 19:36:07
+/* Smarty version 3.1.29, created on 2017-03-14 15:45:32
   from "C:\wamp64\www\Hospital\tpl\edit.html.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58c59517064235_83544098',
+  'unifunc' => 'content_58c8020cc67b76_91494117',
   'file_dependency' => 
   array (
     'a75e4331d9449de8ee01d5615faa306bb96d516f' => 
     array (
       0 => 'C:\\wamp64\\www\\Hospital\\tpl\\edit.html.tpl',
-      1 => 1489343765,
+      1 => 1489502731,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58c59517064235_83544098 ($_smarty_tpl) {
+function content_58c8020cc67b76_91494117 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -56,6 +56,10 @@ $__foreach_patient_0_saved_local_item = $_smarty_tpl->tpl_vars['patient'];
 	Status: <br>
 	<textarea type="text" name="status" rows="5" cols="30"><?php echo $_smarty_tpl->tpl_vars['patient']->value['status'];?>
 </textarea><br>
+	Gender:<br>
+    <input type="radio" name="male" value="male"> Male<br>
+    <input type="radio" name="female" value="$"> Female<br>
+    <input type="radio" name="unkown" value="male"> Unkown<br>
 	<input type="submit" name="submit" value="Save">
 <?php
 $_smarty_tpl->tpl_vars['patient'] = $__foreach_patient_0_saved_local_item;

@@ -17,6 +17,10 @@
 	<input type="text" name="species" value="{$patient['species']}"> <br>
 	Status: <br>
 	<textarea type="text" name="status" rows="5" cols="30">{$patient['status']}</textarea><br>
+	Gender:<br>
+    <input type="radio" name="male" value="male"> Male<br>
+    <input type="radio" name="female" value="$"> Female<br>
+    <input type="radio" name="unkown" value="male"> Unkown<br>
 	<input type="submit" name="submit" value="Save">
 {/foreach}
 </form>
