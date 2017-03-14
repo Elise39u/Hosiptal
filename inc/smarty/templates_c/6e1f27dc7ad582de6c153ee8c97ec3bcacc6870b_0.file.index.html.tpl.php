@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-03-13 09:49:21
+/* Smarty version 3.1.29, created on 2017-03-14 13:42:15
   from "C:\wamp64\www\Hospital\tpl\index.html.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58c65d115c8ea4_92649405',
+  'unifunc' => 'content_58c7e5275a4512_70627894',
   'file_dependency' => 
   array (
     '6e1f27dc7ad582de6c153ee8c97ec3bcacc6870b' => 
     array (
       0 => 'C:\\wamp64\\www\\Hospital\\tpl\\index.html.tpl',
-      1 => 1489394843,
+      1 => 1489494852,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58c65d115c8ea4_92649405 ($_smarty_tpl) {
+function content_58c7e5275a4512_70627894 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -33,7 +33,7 @@ function content_58c65d115c8ea4_92649405 ($_smarty_tpl) {
 <ul>
 	<li><a href="patient/patient.php"> Patiënt </a></li>
 	<li><a href="client/client.php"> Clients </a></li>
-	<li><a href="species.php"> Species </li>
+	<li><a href="species/species.php"> Species </li>
 </ul>
 
 </body>

@@ -9,7 +9,7 @@
 <ul>
 	<li><a href="patient/patient.php"> Patiënt </a></li>
 	<li><a href="client/client.php"> Clients </a></li>
-	<li><a href="species.php"> Species </li>
+	<li><a href="species/species.php"> Species </li>
 </ul>
 
 </body>
