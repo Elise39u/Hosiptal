@@ -5,10 +5,10 @@ require_once ('../inc/patient_logic.php');
 
 $pagetitle = 'Hosiptal';
 $treaded = array();
-foreach ($patients as $patient) {
-	array_push($treaded, $patient);
+foreach ($patient as $patients) {
+	array_push($treaded, $patients);
 }
 
-$smarty->assign('patient', $treaded);
+$smarty->assign('patients', $treaded);
 $smarty->assign('pagetitle', $pagetitle);
 $smarty->display('../tpl/patient.html.tpl');
