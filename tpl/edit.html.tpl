@@ -14,7 +14,12 @@
 	Name: <br>
 	<input type="text" name="name" value="{$patient['name']}"> <br>
     Species: <br>
-	<input type="text" name="species" value="{$patient['species']}"> <br>
+	<select name="species">
+		{foreach $species as $specie}
+		<option value="{$specie['sort']}">{$specie['sort']}</option>
+			{/foreach}
+	</select><br>
+	<!-- <input type="text" name="species" value="{$patient['species']}"> <br> -->
 	Status: <br>
 	<textarea type="text" name="status" rows="5" cols="30">{$patient['status']}</textarea><br>
 	Gender:<br>

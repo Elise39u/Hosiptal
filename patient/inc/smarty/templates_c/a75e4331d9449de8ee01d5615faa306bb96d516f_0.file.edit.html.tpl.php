@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-03-15 09:01:10
+/* Smarty version 3.1.29, created on 2017-03-15 10:27:10
   from "C:\wamp64\www\Hospital\tpl\edit.html.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58c8f4c6273837_33935688',
+  'unifunc' => 'content_58c908eecc2b23_20671376',
   'file_dependency' => 
   array (
     'a75e4331d9449de8ee01d5615faa306bb96d516f' => 
     array (
       0 => 'C:\\wamp64\\www\\Hospital\\tpl\\edit.html.tpl',
-      1 => 1489564768,
+      1 => 1489570000,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58c8f4c6273837_33935688 ($_smarty_tpl) {
+function content_58c908eecc2b23_20671376 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,8 +51,32 @@ $__foreach_patient_0_saved_local_item = $_smarty_tpl->tpl_vars['patient'];
 	<input type="text" name="name" value="<?php echo $_smarty_tpl->tpl_vars['patient']->value['name'];?>
 "> <br>
     Species: <br>
-	<input type="text" name="species" value="<?php echo $_smarty_tpl->tpl_vars['patient']->value['species'];?>
-"> <br>
+	<select name="species">
+		<?php
+$_from = $_smarty_tpl->tpl_vars['species']->value;
+if (!is_array($_from) && !is_object($_from)) {
+settype($_from, 'array');
+}
+$__foreach_specie_1_saved_item = isset($_smarty_tpl->tpl_vars['specie']) ? $_smarty_tpl->tpl_vars['specie'] : false;
+$_smarty_tpl->tpl_vars['specie'] = new Smarty_Variable();
+$_smarty_tpl->tpl_vars['specie']->_loop = false;
+foreach ($_from as $_smarty_tpl->tpl_vars['specie']->value) {
+$_smarty_tpl->tpl_vars['specie']->_loop = true;
+$__foreach_specie_1_saved_local_item = $_smarty_tpl->tpl_vars['specie'];
+?>
+		<option value="<?php echo $_smarty_tpl->tpl_vars['specie']->value['sort'];?>
+"><?php echo $_smarty_tpl->tpl_vars['specie']->value['sort'];?>
+</option>
+			<?php
+$_smarty_tpl->tpl_vars['specie'] = $__foreach_specie_1_saved_local_item;
+}
+if ($__foreach_specie_1_saved_item) {
+$_smarty_tpl->tpl_vars['specie'] = $__foreach_specie_1_saved_item;
+}
+?>
+	</select><br>
+	<!-- <input type="text" name="species" value="<?php echo $_smarty_tpl->tpl_vars['patient']->value['species'];?>
+"> <br> -->
 	Status: <br>
 	<textarea type="text" name="status" rows="5" cols="30"><?php echo $_smarty_tpl->tpl_vars['patient']->value['status'];?>
 </textarea><br>

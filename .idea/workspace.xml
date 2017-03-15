@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e282c654-c471-49f6-b9f6-f545ae79cc90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/patient_logic.php" afterPath="$PROJECT_DIR$/inc/patient_logic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient/inc/smarty/templates_c/aeae58a61de1efda8aa90a8c3412ab0f7c7c3417_0.file.patient.html.tpl.php" afterPath="$PROJECT_DIR$/patient/inc/smarty/templates_c/aeae58a61de1efda8aa90a8c3412ab0f7c7c3417_0.file.patient.html.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient/patient.php" afterPath="$PROJECT_DIR$/patient/patient.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/patient.html.tpl" afterPath="$PROJECT_DIR$/tpl/patient.html.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient/create.php" afterPath="$PROJECT_DIR$/patient/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient/edit.php" afterPath="$PROJECT_DIR$/patient/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient/inc/smarty/templates_c/4a4f635c3909c4cf284b3977ef75cbfe564fc79c_0.file.create.html.tpl.php" afterPath="$PROJECT_DIR$/patient/inc/smarty/templates_c/4a4f635c3909c4cf284b3977ef75cbfe564fc79c_0.file.create.html.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient/inc/smarty/templates_c/a75e4331d9449de8ee01d5615faa306bb96d516f_0.file.edit.html.tpl.php" afterPath="$PROJECT_DIR$/patient/inc/smarty/templates_c/a75e4331d9449de8ee01d5615faa306bb96d516f_0.file.edit.html.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/create.html.tpl" afterPath="$PROJECT_DIR$/tpl/create.html.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/edit.html.tpl" afterPath="$PROJECT_DIR$/tpl/edit.html.tpl" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,33 +28,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="patient.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patient/patient.php">
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patient/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="patient_logic.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/patient_logic.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="26" selection-end-column="37" />
               <folding>
-                <marker date="1489567423498" expanded="true" signature="56:77" ph="SELECT * FRO... patient" />
+                <marker date="1489569763868" expanded="true" signature="565:662" ph="UPDATE patie... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="patient.html.tpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tpl/patient.html.tpl">
+      <file leaf-file-name="edit.html.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tpl/edit.html.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_logic.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/create_logic.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1489188142730" expanded="true" signature="60:81" ph="SELECT * FRO... patient" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="species_logic.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/species_logic.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1489495290854" expanded="true" signature="56:77" ph="SELECT * FRO... species" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patient/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding>
+                <marker date="1489569932366" expanded="true" signature="380:481" ph="INSERT INTO patient... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/create.html.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -67,6 +105,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tpl/patient.html.tpl" />
+        <option value="$PROJECT_DIR$/patient/edit.php" />
+        <option value="$PROJECT_DIR$/patient/create.php" />
+        <option value="$PROJECT_DIR$/tpl/create.html.tpl" />
+        <option value="$PROJECT_DIR$/tpl/edit.html.tpl" />
       </list>
     </option>
   </component>
@@ -160,6 +202,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hospital" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -181,12 +237,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489568052115</updated>
-      <workItem from="1489568058788" duration="1270000" />
+      <workItem from="1489568058788" duration="1919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1270000" />
+    <option name="totallyTimeSpent" value="1919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -227,10 +283,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/patient/patient.php">
+    <entry file="file://$PROJECT_DIR$/tpl/patient.html.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -245,10 +301,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/patient.html.tpl">
+    <entry file="file://$PROJECT_DIR$/patient/patient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/patient_editlogic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1489502630257" expanded="true" signature="68:99" ph="SELECT * FRO... patient" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/species.html.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/create_logic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1489188142730" expanded="true" signature="60:81" ph="SELECT * FRO... patient" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/species_logic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1489495290854" expanded="true" signature="56:77" ph="SELECT * FRO... species" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patient/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="26" selection-end-column="37" />
+          <folding>
+            <marker date="1489569763868" expanded="true" signature="565:662" ph="UPDATE patie... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/create.html.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patient/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <marker date="1489569932366" expanded="true" signature="380:481" ph="INSERT INTO patient... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/edit.html.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -2,6 +2,7 @@
 require_once ('../inc/loadsmarty.php');
 require_once ('../inc/db.php');
 require_once ('../inc/patient_logic.php');
+require_once ('../inc/species_logic.php');
 
 $pagetitle = 'Hosiptal';
 
@@ -17,4 +18,5 @@ if (isset($_POST['submit'])) {
 }
 
 $smarty->assign('pagetitle', $pagetitle);
+$smarty->assign('species', $species);
 $smarty->display('../tpl/create.html.tpl');

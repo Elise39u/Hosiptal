@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-03-12 20:03:02
+/* Smarty version 3.1.29, created on 2017-03-15 10:27:12
   from "C:\wamp64\www\Hospital\tpl\delete.html.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58c59b66a79793_24620982',
+  'unifunc' => 'content_58c908f0c6dce2_32505287',
   'file_dependency' => 
   array (
     '2131354d590c8a26c0b6de21ac7f274fa7d46e9a' => 
     array (
       0 => 'C:\\wamp64\\www\\Hospital\\tpl\\delete.html.tpl',
-      1 => 1489345381,
+      1 => 1489447050,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58c59b66a79793_24620982 ($_smarty_tpl) {
+function content_58c908f0c6dce2_32505287 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>

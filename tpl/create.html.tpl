@@ -14,8 +14,12 @@
 <form action="create.php" method="post">
 	Name: <br>
 	<input type="text" name="name"> <br>
-    Species: <br>
-	<input type="text" name="species"> <br>
+	Species: <br>
+	<select name="species">
+		{foreach $species as $specie}
+			<option value="{$specie['sort']}">{$specie['sort']}</option>
+		{/foreach}
+	</select><br>
 	Status: <br>
 	<input type="text" name="status"><br>	
 	Gender:<br>
