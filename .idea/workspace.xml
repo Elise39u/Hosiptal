@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e282c654-c471-49f6-b9f6-f545ae79cc90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient/create.php" afterPath="$PROJECT_DIR$/patient/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient/edit.php" afterPath="$PROJECT_DIR$/patient/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient/inc/smarty/templates_c/4a4f635c3909c4cf284b3977ef75cbfe564fc79c_0.file.create.html.tpl.php" afterPath="$PROJECT_DIR$/patient/inc/smarty/templates_c/4a4f635c3909c4cf284b3977ef75cbfe564fc79c_0.file.create.html.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patient/inc/smarty/templates_c/a75e4331d9449de8ee01d5615faa306bb96d516f_0.file.edit.html.tpl.php" afterPath="$PROJECT_DIR$/patient/inc/smarty/templates_c/a75e4331d9449de8ee01d5615faa306bb96d516f_0.file.edit.html.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/create.html.tpl" afterPath="$PROJECT_DIR$/tpl/create.html.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/edit.html.tpl" afterPath="$PROJECT_DIR$/tpl/edit.html.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hospital.sql" afterPath="$PROJECT_DIR$/hospital.sql" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -188,34 +183,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tpl" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -237,15 +204,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489568052115</updated>
-      <workItem from="1489568058788" duration="1919000" />
+      <workItem from="1489568058788" duration="2522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1919000" />
+    <option name="totallyTimeSpent" value="2522000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -372,6 +339,14 @@
           <folding>
             <marker date="1489569932366" expanded="true" signature="380:481" ph="INSERT INTO patient... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hospital.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1325">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
