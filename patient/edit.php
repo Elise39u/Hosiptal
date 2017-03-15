@@ -18,7 +18,6 @@ if (isset($_POST['submit'])) {
 		$gender = $_POST['unkown'];
 	}
     $update = $link->query("UPDATE patient SET name='$name', species='$species', status='$status', gender='$gender' WHERE id=$id");
-    var_dump("UPDATE patient SET name='$name', species='$species', status='$status', gender='$gender' WHERE id=$id");
 }
 
 $smarty->assign('id', $id);

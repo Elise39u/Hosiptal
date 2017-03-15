@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-03-12 18:57:45
+/* Smarty version 3.1.29, created on 2017-03-15 09:03:07
   from "C:\wamp64\www\Hospital\tpl\create.html.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58c58c19867b39_21187960',
+  'unifunc' => 'content_58c8f53b752b05_24815264',
   'file_dependency' => 
   array (
     '4a4f635c3909c4cf284b3977ef75cbfe564fc79c' => 
     array (
       0 => 'C:\\wamp64\\www\\Hospital\\tpl\\create.html.tpl',
-      1 => 1489341083,
+      1 => 1489564984,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58c58c19867b39_21187960 ($_smarty_tpl) {
+function content_58c8f53b752b05_24815264 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -41,7 +41,11 @@ function content_58c58c19867b39_21187960 ($_smarty_tpl) {
     Species: <br>
 	<input type="text" name="species"> <br>
 	Status: <br>
-	<input type="text" name="status"><br>
+	<input type="text" name="status"><br>	
+	Gender:<br>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="unkown"> Unkown<br>
 	<input type="submit" name="submit" value="Create patient">
 </form>
 </div>

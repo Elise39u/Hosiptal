@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-03-12 18:51:38
+/* Smarty version 3.1.29, created on 2017-03-15 09:01:04
   from "C:\wamp64\www\Hospital\tpl\patient.html.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58c58aaa8fbca1_40631697',
+  'unifunc' => 'content_58c8f4c0c004e5_21017698',
   'file_dependency' => 
   array (
     'aeae58a61de1efda8aa90a8c3412ab0f7c7c3417' => 
     array (
       0 => 'C:\\wamp64\\www\\Hospital\\tpl\\patient.html.tpl',
-      1 => 1489341097,
+      1 => 1489564861,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58c58aaa8fbca1_40631697 ($_smarty_tpl) {
+function content_58c8f4c0c004e5_21017698 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -40,6 +40,7 @@ function content_58c58aaa8fbca1_40631697 ($_smarty_tpl) {
 		<td>Name &nbsp;</td>
 		<td>Species &nbsp;</td>
 		<td>Stataus &nbsp;</td>
+		<td>Gender &nbsp;</td>
 		<td></td>
 		<td></td>
 	</tr>
@@ -62,6 +63,8 @@ $__foreach_treaded_0_saved_local_item = $_smarty_tpl->tpl_vars['treaded'];
 		<td><?php echo $_smarty_tpl->tpl_vars['treaded']->value['species'];?>
  &nbsp; </td>
 		<td><?php echo $_smarty_tpl->tpl_vars['treaded']->value['status'];?>
+ &nbsp; </td>
+		<td><?php echo $_smarty_tpl->tpl_vars['treaded']->value['gender'];?>
  &nbsp; </td>
 		<td><a href="edit.php?id=<?php echo $_smarty_tpl->tpl_vars['treaded']->value['id'];?>
 "> Edit </a></td>
