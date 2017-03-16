@@ -3,6 +3,10 @@
 	font-size: 13px;
 }
 
+ul {
+	list-style-type: none;
+}
+
 h1 {
 	font-size: 32px;
 }
