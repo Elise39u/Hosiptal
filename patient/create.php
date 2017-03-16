@@ -11,7 +11,6 @@ if (isset($_POST['submit'])) {
 	$species = $_POST['species'];
 	$status = $_POST['status'];
 	$gender = $_POST['gender'];
-	var_dump($_POST);
 
 	$query = $link->query("INSERT INTO patient(name, species, status, gender) VALUES ('$name', '$species', '$status', '$gender')");
 	echo "Succesfull added";
